@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">DemoApplicationTwo</string>
+
+    <string-array name="select_internship_mode">
+        <item>Select Internship Mode</item>
+        <item>VIRTUAL</item>
+        <item>PHYSICAL</item>
+    </string-array>
+
+
+    <string-array name="select_internship_type">
+        <item>Select Internship Type</item>
+        <item>SHORT TERM</item>
+        <item>LONG TERM</item>
+    </string-array>
+
+    <string-array name="select_course_opt">
+        <item>Select Course Opted</item>
+        <item>Android Developer</item>
+        <item>WEBSITE CONTENT WRITER</item>
+    </string-array>
+
+    <string-array name="select_course_learnt">
+        <item>Select Course Opted</item>
+        <item>Android Developer</item>
+        <item>WEBSITE CONTENT WRITER</item>
+    </string-array>
+
+    <string-array name="select_graduation">
+        <item>Select Graduation</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>MA</item>
+        <item>DIPLOMA</item>
+        <item>ENGNEERING</item>
+        <item>DEGREE</item>
+    </string-array>
+
+    <string-array name="select_university">
+        <item>Select University</item>
+        <item>SV University</item>
+    </string-array>
+
+    <string-array name="select_college">
+        <item>Select College Name</item>
+        <item>Gayatri College</item>
+    </string-array>
+
+
+    <string-array name="select_course">
+        <item>Select Course</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>CSE</item>
+    </string-array>
+
+    <string-array name="select_semester">
+        <item>Select Semester</item>
+        <item>I Year 1st Sem</item>
+        <item>I Year 2nd Sem</item>
+        <item>II Year 1st Sem</item>
+        <item>II Year 2nd Sem</item>
+        <item>III Year 1st Sem</item>
+        <item>III Year 2nd Sem</item>
+        <item>IV Year 1st Sem</item>
+        <item>IV Year 2nd Sem</item>
+
+    </string-array>
+
+    <string-array name="select_gender">
+        <item>Select Gender</item>
+        <item>OTHERS</item>
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="payment_mode">
+        <item>Select Payment Mode</item>
+        <item>Short Term - Course &amp; Certificate</item>
+        <item>Short Term - Course &amp; Certificate &amp; Book</item>
+        <item>Long Term - Course &amp; Certificate</item>
+        <item>Long Term - Course &amp; Certificate &amp; Book</item>
+    </string-array>
+
+    <string name="internship_details">INTERNSHIP DETAILS</string>
+    <string name="id_data">00051</string>
+    <string name="dob">dd-mmm-yyyy</string>
+    <string name="hallticket">Hallticket No</string>
+    <string name="college_address">College Address</string>
+    <string name="personal_details">PERSONAL DETAILS</string>
+    <string name="submit">Submit</string>
+    <string name="requirement">REQUIREMENT</string>
+    <string name="student_address">Student Address</string>
+    <string name="alt_phone_no">Alt Phone No</string>
+    <string name="phone_no">Phone No</string>
+    <string name="student_email">Student Email</string>
+    <string name="aadhar_no">Aadhar No</string>
+    <string name="father_name">Father Name</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="college_details">COLLEGE DETAILS</string>
+    <string name="student_name">Student Name</string>
+    <string name="choose_file">Choose File</string>
+    <string name="no_file">No file Choosen</string>
+
+</resources>
