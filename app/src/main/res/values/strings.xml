@@ -21,7 +21,7 @@
     </string-array>
 
     <string-array name="select_course_learnt">
-        <item>Select Course Opted</item>
+        <item>Select Course Learnt</item>
         <item>Android Developer</item>
         <item>WEBSITE CONTENT WRITER</item>
     </string-array>

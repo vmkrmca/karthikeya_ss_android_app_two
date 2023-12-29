@@ -410,6 +410,7 @@
                     android:text="@string/choose_file" />
 
                 <TextView
+                    android:id="@+id/tvFileData"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.6"
