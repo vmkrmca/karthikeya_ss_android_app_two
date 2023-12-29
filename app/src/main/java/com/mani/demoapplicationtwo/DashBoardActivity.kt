@@ -3,6 +3,7 @@ package com.mani.demoapplicationtwo
 import android.app.Activity
 import android.app.DatePickerDialog
 import android.os.Bundle
+import android.text.TextUtils
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Toast
@@ -66,8 +67,6 @@ class DashBoardActivity : Activity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-
-
         when (view?.id) {
 
             R.id.tvSubmit -> { inputFieldsValidation() }
@@ -180,9 +179,16 @@ class DashBoardActivity : Activity(), View.OnClickListener {
             Toast.makeText(this,"Please Select the Student Address ",Toast.LENGTH_SHORT).show()
         } else if (dataBinding.spPaymentMode.selectedItem.toString() == "Select Payment Mode") {
             Toast.makeText(this,"Please Select the Payment Mode ",Toast.LENGTH_SHORT).show()
-        } else {
+        } else if (!validateEmailAddress(dataBinding.etSEmail.text.toString())) {
+            Toast.makeText(this,"Please Enter Correct Email Address ",Toast.LENGTH_SHORT).show()
+        }
+    }
 
-            Toast.makeText(this,"Success",Toast.LENGTH_SHORT).show()
+    private fun validateEmailAddress(email: String): Boolean {
+        return if (TextUtils.isEmpty(email)) {
+            false;
+        } else {
+            android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches();
         }
     }
 
